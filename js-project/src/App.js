@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+const year = new Date().getFullYear();
 
+// код приложения написан в декларативном стиле
 export const App = () => {
 	return (
 		<div className="App">
@@ -17,6 +19,7 @@ export const App = () => {
 				>
 					Learn React
 				</a>
+				<div>{year}</div>
 			</header>
 		</div>
 	);
